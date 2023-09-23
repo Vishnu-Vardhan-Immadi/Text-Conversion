@@ -6,10 +6,9 @@ import Alert from './components/Alert';
 import About from './components/About '
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
-  Route,
- // Link
+  Route
 } from "react-router-dom";
 
 function App() {
