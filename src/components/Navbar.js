@@ -21,7 +21,7 @@ export default function Navbar(props) {
           <Link className="nav-link" to= "/About">{props.abouttext}</Link>
         </li>
         <li className="nav-item">
-        <a className="nav-link" href= "#">Contact</a>
+        <Link className="nav-link" to= "#">Contact</Link>
         </li>
         </ul>
       {/* <form className="d-flex" role="search">
